@@ -157,3 +157,29 @@ header * {
     width: 150px;
     font-size: 10px;
 }
+
+.article-third {
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    padding: 40px 0;
+    & > * {
+        width: 60%;
+    }
+    & > p:first-child {
+        /* border: 2px solid red; */
+        align-self: center;
+        padding: 0;
+    }
+    & > p:last-child {
+        /* border: 2px solid red; */
+        align-self: center;
+        text-align: right;
+        padding: 0;
+    }
+}
+
