@@ -206,3 +206,18 @@ header * {
     border-radius: 4px;
     background: transparent;
 }
+
+footer {
+    display: flex;
+    color: white;
+    background-color: #1F2937;
+    height: 80px;
+    
+}
+
+footer > p {
+    /* height: 100%; */
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
